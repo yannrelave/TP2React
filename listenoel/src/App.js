@@ -1,25 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
+import pereNoel from './pere_noel.png'
+import { Component } from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  constructor(props) {
+    super(props);
+    this.liste = ["Des jeux-vidéos", "Des jeux de sociétés", "Des baskets"];
+  }
+
+  render() {
+    return (
+      <>
+        <div className="App">
+          <img src={pereNoel} alt="Photo" />
+          <div>
+            <h1>Cher Papa Noël</h1>
+            <p>Pour Noël je voudrais :</p>
+            <ul>
+              {this.liste.map((value, index) => (
+                <li key={index}>{value}</li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </>
+    );
+  }
 }
 
 export default App;

@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+h1{
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  text-align: left;
+  text-decoration: underline;
+}
+p{
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  font-size: 30px;
+  text-align: left;
+}
+li{
+  list-style-type: none;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  font-size: 30px;
+  text-align: left;
+}

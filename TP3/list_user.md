@@ -6,12 +6,16 @@ Analysez le [code situé du projet](https://codesandbox.io/s/tp-props-q0wln?file
 
 
 **1. Quelle ligne charge le fichier JSON dans le code ?**
-Le fichier JSON est charger par la ligne `import users from "./Users.json";`
+
+Le fichier JSON est chargé par la ligne `import users from "./Users.json";`
 
 **2. Quelle est la structure de données du fichier JSON ?**
-Les fichiers JSON ont une structure clé => valeur. Chaque valeur est identifié par une clé.
+
+Les fichiers JSON ont une structure clé => valeur. Les valeurs sont identifiées par une clé.
 
 **3. Justifiez le `User.propTypes`. Quelles données ne sont pas prises en compte ?**
+
+`User.propTypes` permet de vérifier la validitée des types des données récupérées et envoyées pour l'affichage. 
 
 **4. Quelles données sont obligatoires pour construire le composant `User` ?**
 

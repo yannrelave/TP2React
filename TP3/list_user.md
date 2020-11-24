@@ -9,6 +9,7 @@ Analysez le [code situé du projet](https://codesandbox.io/s/tp-props-q0wln?file
 Le fichier JSON est charger par la ligne `import users from "./Users.json";`
 
 **2. Quelle est la structure de données du fichier JSON ?**
+Les fichiers JSON ont une structure clé => valeur. Chaque valeur est identifié par une clé.
 
 **3. Justifiez le `User.propTypes`. Quelles données ne sont pas prises en compte ?**
 

@@ -32,7 +32,8 @@ La première accolade sert à indiquer que l'on passe du HTML au JavaScript, et 
 
 **7. Quel est le nom de l'opérateur qui transmet les données du composant `App` vers le composant `User`? Pourquoi est-ce dangereux d'abuser de cet opérateur ?**
 
-
+L'opérateur qui transmet les données du composant `App` vers le composant `User` est `export default`.  
+Il est dangereux d'abuser de cet opérateur 
 
 **8. Ajoutez un paragraphe `p` au composant `User` pour afficher la date de naissance sous la forme "Né le 27/02/1942" pour un homme ou "Née le 27/02/1942" pour une femme en utilisant une condition ternaire. Copiez le code ajouté dans ce document en guise de réponse.**
 

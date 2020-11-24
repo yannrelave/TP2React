@@ -13,24 +13,25 @@ Le fichier JSON est chargé par la ligne `import users from "./Users.json";`
 
 Les fichiers JSON ont une structure clé => valeur. Les valeurs sont identifiées par une clé.
 
-**3. Justifiez le `User.propTypes`. Quelles données ne sont pas prises en compte ?**
+**3. Justifiez le `User.propTypes`. Donnez des exemples de données qui ne sont pas prises en compte.**
 
 `User.propTypes` permet de vérifier la validitée des types des données récupérées et envoyées pour l'affichage. 
-A FINIR
+Des données non prises en compte : `login`, `phone` et `cell`.
 
 **4. Quelles données sont obligatoires pour construire le composant `User` ?**
 
-L'objet `name` comporte un `.required`, il est donc obligatoire. Et rends également les valeurs qu'il contient obligatoires : title, first, last.
+L'objet `name` comporte un `.required`, il est donc obligatoire. Et rends également les attributs qu'il contient obligatoires : `title`, `first`, `last`.
 
 **5. A quoi correspond `PropTypes.shape` ?**
 
 `PropTypes.shape` correspond à une méthode permettant de mettre en forme un objet. Grace à celle-ci, il est possible d'ajouter plusieurs champs à un objet.
 
-**6. Pourquoi l'attribut contient deux accolades ?**
+**6. Pourquoi l'attribut `style` contient deux accolades ?**
 
-
+La première accolade sert à indiquer que l'on passe du HTML au JavaScript, et la deuxième pour la prise en compte du tableau associatif.
 
 **7. Quel est le nom de l'opérateur qui transmet les données du composant `App` vers le composant `User`? Pourquoi est-ce dangereux d'abuser de cet opérateur ?**
+
 
 
 **8. Ajoutez un paragraphe `p` au composant `User` pour afficher la date de naissance sous la forme "Né le 27/02/1942" pour un homme ou "Née le 27/02/1942" pour une femme en utilisant une condition ternaire. Copiez le code ajouté dans ce document en guise de réponse.**

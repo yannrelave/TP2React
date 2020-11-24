@@ -17,19 +17,6 @@ html{
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 h1, h2{
   font-family: Brush Script MT, Brush Script Std, cursive;
   text-align: left;

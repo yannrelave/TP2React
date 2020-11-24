@@ -6,6 +6,7 @@ Analysez le [code situé du projet](https://codesandbox.io/s/tp-props-q0wln?file
 
 
 **1. Quelle ligne charge le fichier JSON dans le code ?**
+Le fichier JSON est charger par la ligne `import users from "./Users.json";`
 
 **2. Quelle est la structure de données du fichier JSON ?**
 

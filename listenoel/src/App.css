@@ -2,15 +2,8 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+html{	
+  background-color: #AD0404;
 }
 
 .App-header {
@@ -37,10 +30,13 @@
   }
 }
 
-h1{
+h1, h2{
   font-family: Brush Script MT, Brush Script Std, cursive;
   text-align: left;
   text-decoration: underline;
+}
+h1{
+	color: #04C331;
 }
 p{
   font-family: Brush Script MT, Brush Script Std, cursive;
@@ -52,4 +48,8 @@ li{
   font-family: Brush Script MT, Brush Script Std, cursive;
   font-size: 30px;
   text-align: left;
+}
+
+.perenoel{
+	width: 20%
 }

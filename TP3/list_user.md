@@ -16,8 +16,13 @@ Les fichiers JSON ont une structure clé => valeur. Les valeurs sont identifiée
 **3. Justifiez le `User.propTypes`. Quelles données ne sont pas prises en compte ?**
 
 `User.propTypes` permet de vérifier la validitée des types des données récupérées et envoyées pour l'affichage. 
+A FINIR
 
 **4. Quelles données sont obligatoires pour construire le composant `User` ?**
+
+L'objet `name` comporte un `.required`, il est donc obligatoire. Et rends également les valeurs qu'il contient obligatoires : *title
+*first
+*last
 
 **5. A quoi correspond `PropTypes.shape` ?**
 

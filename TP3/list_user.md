@@ -20,11 +20,14 @@ A FINIR
 
 **4. Quelles données sont obligatoires pour construire le composant `User` ?**
 
-L'objet `name` comporte un `.required`, il est donc obligatoire. Et rends également les valeurs qu'il contient obligatoires : - title - first - last
+L'objet `name` comporte un `.required`, il est donc obligatoire. Et rends également les valeurs qu'il contient obligatoires : title, first, last.
 
 **5. A quoi correspond `PropTypes.shape` ?**
 
+`PropTypes.shape` correspond à une méthode permettant de mettre en forme un objet. Grace à celle-ci, il est possible d'ajouter plusieurs champs à un objet.
+
 **6. Pourquoi l'attribut contient deux accolades ?**
+
 
 
 **7. Quel est le nom de l'opérateur qui transmet les données du composant `App` vers le composant `User`? Pourquoi est-ce dangereux d'abuser de cet opérateur ?**

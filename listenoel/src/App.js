@@ -1,5 +1,5 @@
 import './App.css';
-import pereNoel from './pere_noel.png';
+import pereNoel from './pn.png'
 import { Component } from 'react';
 
 class App extends Component {
@@ -12,15 +12,18 @@ class App extends Component {
     return (
       <>
         <div className="App">
-          <img src={pereNoel} alt="Photo" />
-          <section>
-            <h1>Cher Papa Noël</h1>
-            <p>Pour Noël je voudrais :</p>
-            <ul>
-              {this.liste.map((value, index) => (
-                <li key={index}>{value}</li>
-              ))}
-            </ul>
+        <h1><b>Liste pour le Père Noël</b></h1>
+        <img src={pereNoel} className="perenoel" alt="Photo"/>
+          <section>            
+            <div>
+              <h2>Cher Papa Noël</h2>
+              <p>Pour Noël je voudrais :</p>
+              <ul>
+                {this.liste.map((value, index) => (
+                  <li key={index}>{value}</li>
+                ))}
+              </ul>
+              </div>
           </section>
         </div>
       </>

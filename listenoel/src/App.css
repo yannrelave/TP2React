@@ -1,8 +1,9 @@
 .App {
   text-align: center;
 }
-html{
-  background-color: red;
+
+html{	
+  background-color: #AD0404;
 }
 .App-header {
   background-color: #282c34;
@@ -15,14 +16,16 @@ html{
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-h1{
+h1, h2{
   font-family: Brush Script MT, Brush Script Std, cursive;
   text-align: center;
   text-decoration: underline;
+  
+}
+h1{
+  color: #298A08;
+  -webkit-text-stroke: 0.5px black;
+  font-size: 50px;
 }
 p{
   font-family: Brush Script MT, Brush Script Std, cursive;
@@ -35,6 +38,7 @@ li{
   font-size: 30px;
   text-align: left;
 }
+
 section{
   background-color: white;
   display: block;
@@ -43,4 +47,7 @@ section{
   width: 40em;
   border: black solid 3px;
   border-radius: 20px;
+}
+.perenoel{
+	width: 15%
 }

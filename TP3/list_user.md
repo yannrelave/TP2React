@@ -20,9 +20,10 @@ A FINIR
 
 **4. Quelles données sont obligatoires pour construire le composant `User` ?**
 
-L'objet `name` comporte un `.required`, il est donc obligatoire. Et rends également les valeurs qu'il contient obligatoires : *title
-*first
-*last
+L'objet `name` comporte un `.required`, il est donc obligatoire. Et rends également les valeurs qu'il contient obligatoires : 
+- title
+- first
+- last
 
 **5. A quoi correspond `PropTypes.shape` ?**
 
